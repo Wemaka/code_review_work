@@ -31,6 +31,6 @@ class CalculatorTest {
     @Test
     void solver() {
         //TODO inser your realisation in test-method solver
-        assertEquals(30,calculator.solver(4,7,2,3));
+        assertEquals(6,calculator.solver(2,2,2));
     }
 }
