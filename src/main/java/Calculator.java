@@ -14,13 +14,11 @@ public class Calculator {
     public int times(int a, int b){
         return a * b;
     }
-    public int solver(int a, int b, int c, int d){
-        //(a*b+c)/d-c
-        return div(
-                add(
-                        times(a, b),
-                        c),
-                dif(d, c)
-        );
+    public int solver(int a, int b, int c){
+        //(a*b+c)
+        return add(
+                times(a, b),
+                c)
+        ;
     }
 }
