@@ -5,6 +5,10 @@ on:
     branches: [ "konstantinovma" ]
   pull_request:
     branches: [ "konstantinovma" ]
+  schedule:
+    - cron: '30 12 * * 3'
+    - cron: '0 22 * * 5'
+  
 
 permissions:
     contents: read
