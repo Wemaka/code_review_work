@@ -12,6 +12,9 @@ on:
     branches: [ "kirilinav" ]
   pull_request:
     branches: [ "kirilinav" ]
+  schedule:
+    - cron: '30 12 * * 3'
+    - cron: '0 22 * * 5'
 
 permissions:
     contents: read
